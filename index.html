@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Todo | Never Forget Things</title>
+    <link rel = "icon" href = "https://cdn-icons-png.flaticon.com/512/1/1560.png" type = "image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">   
+    <script src="https://kit.fontawesome.com/95f18faf6b.js" crossorigin="anonymous"></script>
+    <div id="logo"><img src="logo.png" width="50" 
+      height="60" /></div>  
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">Add Items</label><input id="new-task" type="text"><button>Add</button>
+      </p>
+      
+      <h3>Todo</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>1kg sugar</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li class="editMode"><input type="checkbox"><label>Go Shopping</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        
+      </ul>
+      
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>See the Doctor</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </br>
+    </br>
+    </div>
+   <div class="social-share">
+     <br>
+    <h5>Implemented font-Awesome for font!</h5>
+    <br><br>
+    <div class="wrapper">
+            <div class="icon facebook">
+              <div class="tooltip">Facebook</div>
+              <span><a href="https://linkedin.com/"></a><i class="fab fa-facebook-f"></i></span>
+            </div>
+            
+            <div class="icon twitter">
+              <div class="tooltip">Twitter</div>
+              <span><i class="fab fa-twitter"></i></span>
+            </div>
+            <div class="icon instagram">
+              <div class="tooltip">Instagram</div>
+              <span><i class="fab fa-instagram"></i></span>
+            </div>
+            <div class="icon github">
+              <div class="tooltip">Github</div>
+              <span><i class="fab fa-github"></i></span>
+            </div>
+            <div class="icon youtube">
+              <div class="tooltip">Youtube</div>
+              <span><i class="fab fa-youtube"></i></span>
+            </div>
+          </div>
+          </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
+</html>
